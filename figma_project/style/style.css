@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+a {
+    text-decoration:none
+}
+
+.header {
+    border-radius: 10px;
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.2) -41.9,
+        #fff 260.24%
+    );
+}
+
+
+.top__menu {
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-style: normal;
+    line-height: normal;        
+}
+
+.nav__menu {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.link__menu {
+    list-style-type: none;
+    padding: 2em 0;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+.link__menu a {
+    color: #000;
+}
+
+.top__content {
+    padding-top: 6.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6.5em;
+}
+
+.text__h1 {
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+    width: 604px;
+}
+
+.text__top__main {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    width: 604px;
+    color: #888;
+}
+
+.top__btns .top__btn {
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+        
+    
+        /* Выравнивание по вертикали */
+    gap: 2%;
+    border-radius: 50px;
+    color: #fff;
+    white-space: nowrap;
+    font-family: "OpenSans", "Ariya", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    vertical-align: middle;
+
+}
+
+
+
+.top__btn_img {
+    color: #AAA;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top__logo {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+
+    gap: 3.5em;
+}
